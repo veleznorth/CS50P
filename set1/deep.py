@@ -1,5 +1,5 @@
 def main():
-    great_question=input("¿what is the answer of the Great Question of Life? ").lower()
+    great_question = input("¿what is the answer of the Great Question of Life? ").lower()
     print(ans_great_qs(great_question))
 
 
