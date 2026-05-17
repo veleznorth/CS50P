@@ -17,8 +17,7 @@ def main():
                     try:
                         c = 1
                         for artists in result["data"]:
-
-                            print(f"{c}#{artists["title"]}")
+                            print(f"{c}#{artists['title']}")
                             c += 1
 
                     except TypeError:
@@ -46,8 +45,7 @@ def main():
                     try:
                         c = 1
                         for artwork in result["data"]:
-
-                            print(f"{c}#{artwork["title"]}")
+                            print(f"{c}#{artwork['title']}")
                             c += 1
 
                     except TypeError:
